@@ -1,0 +1,12 @@
+Comandos mysql
+
+Iniciar la consola mysql
+    Iniciar mysql:          /opt/lampp/lampp startmysql
+    Iniciar consolamysql:   /opt/lampp/bin/mysql -u root
+
+Loguearse mysql: 
+    --user:user-name --password=user-password
+
+Mostrar las bases de datos creadas en MySQL
+    show databases;
+
