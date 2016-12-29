@@ -12,3 +12,11 @@ Mostrar las bases de datos creadas en MySQL
 
 Crear BD
 	create database clase;
+	
+Ingresar a la BD
+    use nombre_de_la_BD;
+
+ejecutar script de tablas
+    source /... direccion completa del archivo "clase.sql"
+
+Ejcutar query
