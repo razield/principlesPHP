@@ -10,3 +10,5 @@ Loguearse mysql:
 Mostrar las bases de datos creadas en MySQL
     show databases;
 
+Crear BD
+	create database clase;

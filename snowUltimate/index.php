@@ -1,30 +1,8 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <title>Snow Landing Page Theme </title>
-  <meta name="keywords" content="">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  
-  <meta property="og:title" content="">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="">
-	<meta property="og:site_name" content="">
-	<meta property="og:description" content="">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
-  
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <script src="js/modernizr-2.7.1.js"></script>
-  
-</head>
-
+<html lang="en">
+<?php
+ include('head.php');
+?>
 <body>
 
     
@@ -47,42 +25,7 @@
       </div>
     </div>
         
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-6">
-            <a href="index.html"><img src="img/sas_logo.png" alt="Logo" width="100px" height="50px></a>
-          </div>
-          <div class="col-xs-6 signin text-right navbar-nav">
-            <a href="#pricing" class="scroll">Pricing</a>&nbsp; &nbsp;<a href="#">Sign in</a>
-          </div>
-        </div>
-        
-        <div class="row header-info">
-          <div class="col-sm-10 col-sm-offset-1 text-center">
-            <h1 class="wow fadeIn">A free landing page theme</h1>
-            <br />
-            <p class="lead wow fadeIn" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipis. <br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit sit dol mi arlna.</p>
-            <br />
-              
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                <div class="row">
-                  <div class="col-xs-6 text-right wow fadeInUp" data-wow-delay="1s">
-                    <a href="#be-the-first" class="btn btn-secondary btn-lg scroll">Learn More</a>
-                  </div>
-                  <div class="col-xs-6 text-left wow fadeInUp" data-wow-delay="1.4s">
-                    <a href="#invite" class="btn btn-primary btn-lg scroll">Request Invite</a>
-                  </div>
-                </div><!--End Button Row-->  
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </header>
+  <?php include('header.php');?>
     
     <div class="mouse-icon hidden-xs">
 				<div class="scroll"></div>
@@ -127,60 +70,7 @@
         
         
     <!--Pricing-->
-    <section id="pricing" class="pad-lg">
-      <div class="container">
-        <div class="row margin-40">
-          <div class="col-sm-8 col-sm-offset-2 text-center">
-            <h2 class="white">Pricing</h2>
-            <p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci ut.</p>
-          </div>
-        </div>
-        
-        <div class="row margin-50">
-          
-          <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="1s">
-            <br />
-            <ul class="list-unstyled pricing-table text-center">
-    					<li class="headline"><h5 class="white">Personal</h5></li>
-    					<li class="price"><div class="amount">$5<small>/m</small></div></li>
-    					<li class="info">2 row section for you package information. You can include all details or icons</li>
-    					<li class="features first">Up To 25 Projects</li>
-    					<li class="features">10GB Storage</li>
-    					<li class="features">Other info</li>
-    					<li class="features last btn btn-secondary btn-wide"><a href="#">Get Started</a></li>
-    				</ul>
-          </div>
-          
-          <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="0.4s">
-            <ul class="list-unstyled pricing-table active text-center">
-    					<li class="headline"><h5 class="white">Professional</h5></li>
-    					<li class="price"><div class="amount">$12<small>/m</small></div></li>
-    					<li class="info">2 row section for you package information. You can include all details or icons</li>
-    					<li class="features first">Up To 25 Projects</li>
-    					<li class="features">10GB Storage</li>
-    					<li class="features">Other info</li>
-    					<li class="features">Other info</li>
-    					<li class="features last btn btn-secondary btn-wide"><a href="#">Get Started</a></li>
-    				</ul>
-          </div>
-          
-          <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="1.3s">
-            <br />
-            <ul class="list-unstyled pricing-table text-center">
-    					<li class="headline"><h5 class="white">Business</h5></li>
-    					<li class="price"><div class="amount">$24<small>/m</small></div></li>
-    					<li class="info">2 row section for you package information. You can include all details or icons</li>
-    					<li class="features first">Up To 25 Projects</li>
-    					<li class="features">10GB Storage</li>
-    					<li class="features">Other info</li>
-    					<li class="features last btn btn-secondary btn-wide"><a href="#">Get Started</a></li>
-    				</ul>
-          </div>
-          
-        </div>
-        
-      </div>
-    </section>
+<?php include('sectionPricing');?>
     
     
     <section id="invite" class="pad-lg light-gray-bg">
@@ -265,4 +155,4 @@
 
    
     </body>
-</html>
+</html> 
